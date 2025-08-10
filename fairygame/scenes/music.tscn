@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://c42nskj6yp5qe"]
+
+[ext_resource type="AudioStream" uid="uid://d28min6gx36p" path="res://sounds/01 - level 1.wav" id="1_05ggv"]
+[ext_resource type="Script" uid="uid://dxwrhc275og8p" path="res://scripts/music.gd" id="2_ibx2e"]
+[ext_resource type="AudioStream" uid="uid://84e1uuha8b7k" path="res://sounds/mixkit-game-coin-touch-3217.wav" id="3_qnihg"]
+
+[node name="Music" type="AudioStreamPlayer"]
+stream = ExtResource("1_05ggv")
+autoplay = true
+bus = &"Music"
+script = ExtResource("2_ibx2e")
+
+[node name="CoinSfx" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("3_qnihg")
+bus = &"SFX"
