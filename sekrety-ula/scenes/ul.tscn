@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bsfu3l4nbda60"]
+
+[ext_resource type="Texture2D" uid="uid://tegsp08p0jy7" path="res://assets/Gemini_Generated_Image_du0cxcdu0cxcdu0c — kopia.jpg" id="1_mw013"]
+
+[node name="Ul" type="Node2D"]
+
+[node name="GeminiGeneratedImageDu0Cxcdu0Cxcdu0c—Kopia" type="Sprite2D" parent="."]
+position = Vector2(1.99999, -360)
+scale = Vector2(0.428589, 0.428589)
+texture = ExtResource("1_mw013")
